@@ -9,8 +9,15 @@ def get_apology():
         "I owe you a huge apology for forgetting your special day. You deserve all the happiness, and I want to be the one to give it to you.",
         "I feel awful for forgetting your birthday. Please forgive me, and let me make it up to you in the most special way possible."
     ]
+    poems = [
+        "Roses are red, violets are blue, I forgot your birthday, my love so true. For my mistake, I deeply rue, Let me make it up with something special, just for you.",
+        "In the realm of dates, I made a blunder, Your birthday slipped my mind, torn asunder. With heartfelt words, I seek to convey, My deepest apologies and a special day.",
+        "A calendar slip, a grievous crime, I forgot your birthday, dear partner in crime. Let my words weave an apology so fine, And a plan to make it up, uniquely designed.",
+        "Time betrayed me, a lapse so grave, I forgot your birthday, my heart to save. Let these lines serve as my sincere plea, For your forgiveness and a date with glee.",
+        "The date slipped away, from memory it flew, I forgot your birthday, my love so true. Let this poetic apology be a start, To heal the wound and mend your heart."
+    ]
 
-    return random.choice(apologies)
+    return random.choice(poems)
 
 def main():
     st.title('Forgiveness App')
